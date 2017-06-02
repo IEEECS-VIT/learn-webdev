@@ -1,0 +1,26 @@
+#menu
+{
+
+color: red;
+padding-right: 150px;
+text-align: center;
+background-image: url("C:/Users/kevin/Desktop/Coding/IEEE CS/Summer June 2017/HTML/wall.png");
+background-size:100% ;
+background-repeat: no-repeat;
+height:400px;
+}
+ul
+{
+  list-style-type: none;
+  margin:0;
+
+}
+p
+{
+float: right;}
+li
+{
+  display: inline!important;
+  float:center;
+  padding: 10;
+}
