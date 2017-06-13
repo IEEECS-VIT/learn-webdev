@@ -1,0 +1,93 @@
+body {
+  width:1920px;
+}
+.main{
+  background-image: url(images/div1_background.jpg);
+}
+  .r1{
+    top:350px;
+  }
+  .r1c2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    color:#303030;
+  }
+.r2{
+    top:350px;
+
+  }
+  .r2c2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    color:#303030;
+  }
+.r3{
+    top:410px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .r3c2{
+    background-color: white;
+    opacity: 0.5;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+.r3c3{
+    background-color: #4159B1;
+    color:white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+
+  }
+
+
+
+.disc{
+  position:relative;
+  top: 1148px; left: 0px;
+  height:732px;
+  background-image: url(images/div2_background.jpg);
+}
+
+  @font-face {
+    font-family: Neoteric;
+    src: url(fonts/Neoteric-Font.woff);
+    src: url(fonts/Neoteric-Font.eot);
+    src: url(fonts/Neoteric-Font.ttf);
+  }
+  .intro{
+font-kerning: normal;
+   font-family: Neoteric;
+    font-weight: lighter;
+    font-size: 40px;
+    color:white;
+    text-align:center;
+
+  }
+
+.cities
+{
+  position: relative;
+  float:bottom;
+
+  background-image: url(images/div3_background.jpg);
+  top:1148px;
+  left:0px;
+  height:1180px;
+}
+  .cr1c2{
+    background-color: black;
+  }
+  .cr1c4{
+    background-color: black;
+  }
+.footer{
+  position: relative;
+  float:bottom;
+  top:1148px;
+  left:0px;
+  width:1920px;
+  height:436px;
+  background-color: #303030;
+}
