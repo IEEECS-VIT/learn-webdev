@@ -57,14 +57,14 @@ body {
     src: url(fonts/Neoteric-Font.ttf);
   }
   .intro{
-font-kerning: normal;
    font-family: Neoteric;
     font-weight: lighter;
     font-size: 40px;
     color:white;
     text-align:center;
-
   }
+
+
 
 .cities
 {
@@ -76,12 +76,33 @@ font-kerning: normal;
   left:0px;
   height:1180px;
 }
-  .cr1c2{
-    background-color: black;
-  }
-  .cr1c4{
-    background-color: black;
-  }
+#circles{
+  position: relative;
+  border: 10px solid white;
+    border-radius: 190px;
+}
+#city{
+  position: absolute;
+  float:center;
+  top:170px;
+  left:25px;
+  text-align: center;
+  width:380px;
+  font-family: 'Montserrat', sans-serif;
+  font-size:35px;
+  color: white;
+  background-color: black;
+  opacity: 0.7;
+
+}
+.cr1c2{  top:100px;}
+.cr1c3{width:1225px;}
+.cr1c4{  top:80px;}
+.cr2c2{  bottom:50px;right:40px;}
+.cr3c2{ bottom:150px; }
+.cr3c3{}
+.cr3c4{ bottom:150px;  }
+
 .footer{
   position: relative;
   float:bottom;
