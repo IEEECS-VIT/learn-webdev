@@ -1,0 +1,156 @@
+.menubar
+{
+  position:relative;
+  float:left;
+  background-image:url("images/main.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  font-family:inherit;
+  padding: 50px;
+  padding-top: 15px;
+  text-align:center;
+  width:100%;
+  height:800px;
+  border-bottom:2px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.m1{
+    color:white;
+    text-align:center;
+    display:block;
+    font-size: 20px;
+}
+
+.m1 a{
+  text-decoration: none;
+  color: white;
+}
+.menuheading1{
+  border-bottom:2px solid white;
+  padding-bottom: 10px;
+  float: left;
+  width: 40%;
+}
+
+.menuheading2{
+  line-height: 0%;
+  margin: 0em;
+  padding: 0em;
+  font-style: normal;
+
+}
+.hidden-sm{
+  visibility: hidden;
+  display: none;
+}
+
+.menuheading3{
+  border-bottom:2px solid white;
+  padding-bottom: 10px;
+  float: right;
+  width: 40%;
+}
+.middle{
+  position: absolute;
+  float: left;
+}
+
+
+.pg2{
+  float:left;
+  width:100%;
+  padding:80px;
+}
+.image{
+  width:100%;
+  height: 100%;
+  padding: 20px;
+}
+.image:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.news{
+float: left;
+color: #303030;
+padding: 20px;
+padding-left: 95px;
+font-weight: bold;
+font-size: 20px;
+
+}
+
+.news a{
+  color: #303030;
+}
+
+.newsheader{
+  padding-top:60px;
+  font-size: 40px;
+  font-weight: bold;
+  color: orchid;
+  border-bottom:4px solid orchid;
+}
+
+.innews{
+  color: cornflowerblue;
+  font-size: 15px;
+}
+
+.innewsl{
+  color: dimgrey;
+  font-size: 15px;
+  padding-left: 20px;
+  float: left;
+
+}
+
+.continue a{
+  color: cornflowerblue;
+}
+.partners{
+  padding-top: 80px;
+  text-align: center;
+  font-weight: bold;
+  color:purple;
+  font-size: 30px;
+}
+
+.contact{
+  margin-top: 30px;
+  float:left;
+  background-image:url("images/cubg.jpg");
+  background-repeat: repeat-y;
+  background-size: 100%;
+  width: 100%;
+  height: 350px;
+}
+
+.contactDetails{
+  padding: 30px;
+  padding-left: 80px;
+  color: white;
+  font-size: 25px;
+  background-color:transparent;
+}
+.contactDetails2{
+  padding-left: 40px;
+  color: white;
+  font-size: 22px;
+  background-color:transparent;
+}
+
+.contactDetails3{
+  padding-left:8px;
+  color: white;
+  font-size: 16px;
+  background-color:transparent;
+}
+
+.contactLogo{
+  float: right;
+  padding-right: 250px;
+  padding-top: 70px;
+}
