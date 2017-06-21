@@ -1,0 +1,39 @@
+body{
+  background-color: rgb(254,255,253);
+  font-family: 'Montserrat', sans-serif;
+}
+.container{
+
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+#navBarMain{
+  text-decoration: underline;
+  background: rgb(193,136,155); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, rgb(193,136,155) , rgb(150,110,163)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgb(193,136,155), rgb(150,110,163)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgb(193,136,155), rgb(150,110,163)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgb(193,136,155) , rgb(150,110,163)); /* Standard syntax */
+}
+#navBar{
+  border: 0px solid;
+}
+#leftNavContent{
+  padding-left: 7%;
+}
+#rightNavContent{
+  padding-right: 9%;
+}
+#leftNavContent li a{
+  color: rgb(255,254,255);
+}
+#rightNavContent li a{
+  color:rgb(255,254,255);
+}
+#leftNavContent li:hover{
+  background-color: rgba(158,115,161,0.5);
+}
+#rightNavContent li:hover{
+  background-color: rgba(189,134,155,0.5);
+}
