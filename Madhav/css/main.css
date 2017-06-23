@@ -52,8 +52,9 @@ body{
   min-height: 67vh;
 }
 #update1upper{
-  border:solid 10px white;
+  border:solid 1px grey;
   color: white;
+  box-shadow: 7px 7px 7px 1px #888888;
 }
 #update2{
   background-image: url('../img/update2.jpg');
@@ -61,16 +62,61 @@ body{
   background-repeat: no-repeat;
   min-height: 52vh;
 }
+#updateLeft{
+  margin-right: 1%;
+}
+#updateRight{
+  margin-left: 1%;
+}
 #update2upper{
-  border:solid 10px white;
+  border:solid 1px grey;
   color: white;
+  box-shadow: 7px 7px 7px 1px #888888;
 }
 #updateHead{
   font-size: 120%;
-  padding-bottom: 15%;
+  padding-bottom: 30%;
 }
 #updateThumbnail{
   background-color: white;
   color: #4d66d0;
   margin-left: 0%;
+}
+#updateThumbnail:hover{
+  cursor: pointer;
+}
+#updateBody{
+  color: black;
+  padding-top: 4%;
+  font-family: Franklin Gothic book;
+  padding-bottom: 2%;
+}
+#update3upper{
+
+  color: white;
+  box-shadow: 7px 7px 7px 1px #888888;
+  min-height: 40vh;
+
+}
+#wasteSpace{
+  background-color: white;
+  min-height: 3vh;
+}
+#update3{
+  min-height: 50vh;
+  background-color: #cfcfcf;
+}
+#update4{
+  min-height: 69vh;
+  background-color: #cfcfcf;
+}
+#continueRead{
+  text-align: center;
+  color: #828282;
+  font-family: Calibri;
+  background-color: #cfcfcf;
+  cursor: pointer;
+}
+#wasteSpace2{
+  min-height: 15vh;
 }
